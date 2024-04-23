@@ -37,7 +37,6 @@ def tree_by_levels(node):
         res.append(root.value)
         
     while root:
-        
         if root.left:
             res.append(root.left.value)
             next.add(root.left)
